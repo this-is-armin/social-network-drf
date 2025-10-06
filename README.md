@@ -35,7 +35,7 @@ The API is versioned (`v1`) to support multiple clients (e.g. web frontend, mobi
 - POST /register/ – Register a new user
 - GET /```<username>```/ – View user profile
 - POST /```<username>```/follow/ – Follow a user
-- delete /```<username>```/unfollow/ – Unfollow a user
+- DELETE /```<username>```/unfollow/ – Unfollow a user
 - GET /```<username>```/followers/ – List followers
 - GET /```<username>```/following/ – List following
 - GET /```<username>```/posts/ – List user's posts
